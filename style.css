@@ -19,3 +19,8 @@ h4 {
     color: rgb(210, 210, 210);
     font-family: "Helvetica", sans-serif;
 }
+
+a {
+    font-size: 20px;
+    color: rgb(246, 245, 245);
+}
