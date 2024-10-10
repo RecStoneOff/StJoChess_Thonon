@@ -5,5 +5,5 @@ h1 {
 }
 
 body {
-    background: radial-gradient(top, blue, rgb(3, 3, 63));
+    background: linear-gradient(to right, slateblue, lightblue);
 }
