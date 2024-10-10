@@ -1,0 +1,9 @@
+h1 {
+    font-family: 'Trebuchet MS';
+    font-size: 30px;
+    text-align: center;
+}
+
+body {
+    background: radial-gradient(top, blue, rgb(3, 3, 63));
+}
