@@ -1,13 +1,20 @@
 h1 {
     font-family: "Copperplate", fantasy;
     font-size: 50px;
+    color: rgb(210, 210, 210);
 }
 
 body {
-    background: radial-gradient(rgb(91, 58, 10), rgb(157, 115, 18));
+    background: #0d0d0d;
     text-align: center;
 }
 
 h3 {
+    font-family: "Helvetica", sans-serif;
+    color: rgb(210, 210, 210);
+}
+
+h4 {
+    color: rgb(210, 210, 210);
     font-family: "Helvetica", sans-serif;
 }
