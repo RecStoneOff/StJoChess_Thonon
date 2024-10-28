@@ -29,5 +29,9 @@ a {
 .Logo {
     margin-top: 0;
     margin-left: 0;
+<<<<<<< HEAD
     width: max-content;
+=======
+    length: 100%;
+>>>>>>> 5013ac6b642c36cb45ca1fff6f0ddda351746511
 }
