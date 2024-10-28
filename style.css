@@ -6,21 +6,27 @@ h1 {
 }
 
 body {
-    background: #0d0d0d;
+    background: #151515;
     text-align: center;
+    margin: 0;
 }
 
 h3 {
     font-family: "Helvetica", sans-serif;
-    color: rgb(210, 210, 210);
+    color: rgb(240, 240, 240);
 }
 
 h4 {
-    color: rgb(210, 210, 210);
+    color: rgb(240, 240, 240);
     font-family: "Helvetica", sans-serif;
 }
 
 a {
     font-size: 20px;
     color: rgb(246, 245, 245);
+}
+
+.Logo {
+    margin-top: 0;
+    margin-left: 0;
 }
