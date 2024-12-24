@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StJo Chess Club - Home</title>
+    <link rel="stylesheet" href="stylehome.css">
+</head>
+<body>
+
+<!-- Header -->
+
+    <header>
+        <div class="banner">
+            <img style="width: 100%; height: auto; max-width: 100%; display: block; " src="banniere.png" alt="Bannière StJo Chess" class="banner-image">
+        </div>
+
+    <!-- Bannière noire avec le menu -->
+
+
+    <div class="black-banner">
+            <a href="home.html">Home</a>
+            <a href="inscriptions.html">Inscription</a>
+    </div>
+
+    </header>
+
+<!-- Fin Header -->
+
+    <main>
+        <section id="forum" class="section">
+            <img src="montagne.jpeg" class="montagne">
+            <div class="forum-content1">
+            <p class="psize">23.12.24</p>
+            <h2 class="bubble-title" id="bubble-title">Le club d'échecs est en faillite !</h2>
+            <p class="bubble-text" id="bubble-text">Mais ne vous inquiétez pas, on a encore des pions et du café ! Venez nous aider à nous relever, on a besoin de tous les joueurs (et de toutes les contributions possibles) !</p>
+            <button class="next-button" onclick="changeText()">Suivant</button>
+        </div>
+
+
+
+
+
+            <div class="section" style="background-color: black;">
+    <h2 style="padding-top: 30px; font-size: 40px; color: white; text-decoration: underline;" >C'EST QUOI ?</h2>
+    <img src="mainpiece.jpeg" class="col-contenu">
+    <div class="col-contenu float-right">
+        <div style="background-color: black;" class="texte-avec-ligne-verticale">
+            <p style="margin-right: 40px; color: white;background-color: black;">Je suis un pion, un humble pion. Je ne suis pas un fou ni un cavalier, je n'ai pas la puissance d'une reine ni la sagesse d'un roi. Je suis simplement un pion, la pièce la plus nombreuse sur l'échiquier, et pourtant, je suis le cœur du jeu.
+<br><br>Ma vie commence sur la deuxième rangée, derrière les pièces plus puissantes. Je suis entouré de mes frères, tous identiques, tous avec le même destin. Nous sommes huit, prêts à avancer, à sacrifier nos vies pour la victoire.</p>
+        </div>
+    </div>
+</div>
+
+            <img src="4 site.jpg" style="padding-top: 30px; position: relative;
+    width: 100%;
+    height: 500px;
+    display: block; /* Pour que l'image occupe toute la largeur */
+    object-fit: cover;">
+ <footer>
+        <div class="footer-content">
+            <div class="left-section">
+                <h3>Liens utiles</h3>
+                <ul>
+                    <li><a href="#">Site StJoseph</a></li>
+                    <li><a href="#">FFE échecs</a></li>
+                    <li><a href="#">Page d'accueil</a></li>
+                    <li><a href="#">Insciption</a></li>
+                </ul>
+            </div>
+            <div class="center-section">
+                <h3>Contactez-nous</h3>
+                <p>Email : <a href="mailto:clubechessstjoseph@gmail.com">clubechessstjoseph@gmail.com</a></p>
+                <p>BDE de Saint Joseph Thonon</p>
+            </div>
+            <div class="right-section">
+                <h3>Website made by</h3>
+                <img src="gns.jpg" alt="GNS Media Logo">
+            </div>
+        </div>
+    </footer>
+
+
+            <!--
+    <div class="comments">
+    <h3>Vos commentaires :</h3>
+    <div class="overlay">
+        <div class="comment-avatar">
+            <img src="image2.png"  class="comment-image">
+        </div>
+        <p><strong>Jean-Baptiste Clerc :</strong> Ce site est merveilleux !</p>
+    </div>
+    <div class="comment">
+        <div class="comment-avatar">
+            <img src="image2.png"class="comment-image">
+        </div>
+        <p><strong>Saint-Joseph Lasalle :</strong> Gaspard doit devenir président !</p>
+    </div>
+    <div class="comment">
+        <div class="comment-avatar">
+            <img src="image2.png"  class="comment-image">
+        </div>
+        <p><strong>Le Block :</strong> Ce site est hideux !</p>
+    </div>
+</div>
+-->
+                <!--
+
+            <div class="comments">
+                <h3>Vos commentaires :</h3>
+                <div class="comment">
+                    <img src="image2.png" alt="Commentaire utilisateur" class="comment-image">
+                    <p><strong>Jean-Baptiste Clerc :</strong> Ce site est merveilleux !</p>
+                </div>
+                <div class="comment">
+                    <img src="image2.png" alt="Commentaire utilisateur" class="comment-image">
+                    <p><strong>Saint-Joseph Lasalle :</strong> Gaspard doit devenir président !</p>
+                </div>
+                <div class="comment">
+                    <img src="image2.png" alt="Commentaire utilisateur" class="comment-image">
+                    <p><strong>Le Block :</strong> Vive le club d'échecs !</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="banner-footer">
+            <img src="image3.png" alt="Bannière de fin StJo Chess" class="footer-banner">
+        </div>
+        <div class="links">
+            <ul>
+                <li><a href="forum.html">Forum</a></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="inscription.html">Inscription</a></li>
+            </ul>
+        </div>
+        <div class="contact">
+            <p>Contactez-nous : <a href="mailto:stjochess@gmail.com">stjochess@gmail.com</a></p>
+            <p>Adresse : BDE de Saint Joseph Thanon</p>
+        </div>
+        <p>Website made by GNS</p>
+    </footer>
+
+-->
+
+<script>
+    let currentIndex = 0;
+    const texts = [
+        {title: "Le club d'échecs est en faillite !", text: "Mais ne vous inquiétez pas, on a encore des pions et du café ! Venez nous aider à nous relever, on a besoin de tous les joueurs (et de toutes les contributions possibles) !"},
+        {title: "Le club d'échecs a enfin trouvé un endroit pour ses tournois", text: "Un entrepôt ! On a plus d'espace, plus de tables et plus de pions que jamais. Rejoignez-nous pour une expérience unique."},
+        {title: "Le club d'échecs a un nouveau président !", text: "Il a promis de ne pas manger tous les pions et de ne pas déplacer la reine sans raison. Venez découvrir les changements !"}
+    ];
+
+    function changeText() {
+        currentIndex = (currentIndex + 1) % texts.length;
+        document.getElementById("bubble-title").textContent = texts[currentIndex].title;
+        document.getElementById("bubble-text").textContent = texts[currentIndex].text;
+    }
+</script>
+            <script src="snowstorm-min.js"></script>
+</body>
+</html>

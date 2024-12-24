@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StJo Chess Club - Home</title>
+    <link rel="stylesheet" href="inscriptions.css">
+</head>
+<body>
+
+<!-- Header -->
+
+    <header>
+        <div class="banner">
+            <img style="width: 100%; height: auto; max-width: 100%; display: block;" src="banniere.png" alt="Bannière StJo Chess" class="banner-image">
+        </div>
+
+    <!-- Bannière noire avec le menu -->
+
+
+    <div class="black-banner">
+            <a href="home.html">Home</a>
+            <a href="inscriptions.html">Inscription</a>
+    </div>
+
+    </header>
+
+<!-- Fin Header -->
+ <!-- Informations sur le prochain tournoi
+        <div class="tournament-section">
+            <div class="tournament-card">
+                <h2>Prochain tournoi :</h2>
+                <p>Date : <strong>46 Février 2025</strong></p>
+                <p>Places restantes : <strong>23</strong></p>
+                <p>Emplacement : <strong>Salle 001</strong></p>
+                <button>S'inscrire</button>
+            </div>
+        </div>
+-->
+
+    <img src="4 site.jpg" style="width: 100%; height: auto; max-width: 100%; display: block; ">
+
+<div class="forum-content1">
+
+            <h2 class="bubble-title" id="bubble-title">S'inscrire au club d'échecs</h2>
+            <p class="bubble-text" id="bubble-text">Rejoignez nous le lundi à 12h30 en salle 001 !</p>
+            <button class="next-button" onclick="changeText()">Suivant</button>
+        </div>
+
+
+
+    <div class="black-banner" style=" padding-top: 20px; padding-bottom: 20px;">
+            <p style="font-size: 35px;  text-align: center;">Les 5 règles d'<span class="gold">or</span> des échecs</p>
+
+    </div>
+
+
+    <img src="mainserrerond.png" class="abc">
+
+
+
+
+
+ <footer>
+        <div class="footer-content">
+            <div class="left-section">
+                <h3 style="color: white;">Liens utiles</h3>
+                <ul>
+                    <li><a href="#">Site StJoseph</a></li>
+                    <li><a href="#">FFE échecs</a></li>
+                    <li><a href="#">Page d'accueil</a></li>
+                    <li><a href="#">Insciption</a></li>
+                </ul>
+            </div>
+            <div class="center-section">
+                <h3 style="color: white;">Contactez-nous</h3>
+                <p>Email : <a href="mailto:clubechessstjoseph@gmail.com">clubechessstjoseph@gmail.com</a></p>
+                <p>BDE de Saint Joseph Thonon</p>
+            </div>
+            <div class="right-section">
+                <h3 style="color: white;">Website made by</h3>
+                <img src="gns.jpg" alt="GNS Media Logo">
+            </div>
+        </div>
+    </footer>
+
+<script src="snowstorm-min.js"></script>
+<script>
+    let currentIndex = 0;
+    const texts = [
+        {title: "S'inscrire au club d'échecs", text: "Rejoignez nous le lundi à 12h30 en salle 001 !"},
+        {title: "Prochains tournois", text: "- 56 décembre 2038 - Salle 001 - 30 places restantes - Prix : 1 BTC"},
+    ];
+
+    function changeText() {
+        currentIndex = (currentIndex + 1) % texts.length;
+        document.getElementById("bubble-title").textContent = texts[currentIndex].title;
+        document.getElementById("bubble-text").textContent = texts[currentIndex].text;
+    }
+</script>
