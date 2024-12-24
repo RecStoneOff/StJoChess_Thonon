@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StJo Chess Club - Forum</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="banner">
+        <img style="width: 100%; height: auto; max-width: 100%; display: block;" src="banniere.png" alt="Bannière StJo Chess" class="banner-image">
+    </div>
+    <div class="black-banner">
+        <a href="forum.html">Forum</a>
+        <a href="home.html">Home</a>
+        <a href="inscription.html">Inscription</a>
+    </div>
+</header>
+
+<main>
+    <section id="forum" class="section">
+        <img src="montagne.jpeg" class="montagne">
+
+        <!-- Forum content -->
+        <div class="forum-content">
+            <p class="psize">23.12.24</p>
+            <h2 class="bubble-title" id="bubble-title">Le club d'échecs est en faillite !</h2>
+            <p class="bubble-text" id="bubble-text">Mais ne vous inquiétez pas, on a encore des pions et du café ! Venez nous aider à nous relever, on a besoin de tous les joueurs (et de toutes les contributions possibles) !</p>
+            <button class="next-button" onclick="changeText()">Suivant</button>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="banner-footer">
+        <img src="image3.png" alt="Bannières de fin StJo Chess" class="footer-banner">
+    </div>
+    <div class="links">
+        <ul>
+            <li><a href="forum.html">Forum</a></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="inscription.html">Inscription</a></li>
+        </ul>
+    </div>
+    <div class="contact">
+        <p>Contactez-nous : <a href="mailto:stjochess@gmail.com">stjochess@gmail.com</a></p>
+        <p>Adresse : BDE de Saint Joseph Thanon</p>
+    </div>
+    <p>Website made by GNS</p>
+</footer>
+
+<script>
+    let currentIndex = 0;
+    const texts = [
+        {title: "Le club d'échecs est en faillite !", text: "Mais ne vous inquiétez pas, on a encore des pions et du café ! Venez nous aider à nous relever, on a besoin de tous les joueurs (et de toutes les contributions possibles) !"},
+        {title: "Le club d'échecs a enfin trouvé un endroit pour ses tournois", text: "Un entrepôt ! On a plus d'espace, plus de tables et plus de pions que jamais. Rejoignez-nous pour une expérience unique."},
+        {title: "Le club d'échecs a un nouveau président !", text: "Il a promis de ne pas manger tous les pions et de ne pas déplacer la reine sans raison. Venez découvrir les changements !"}
+    ];
+
+    function changeText() {
+        currentIndex = (currentIndex + 1) % texts.length;
+        document.getElementById("bubble-title").textContent = texts[currentIndex].title;
+        document.getElementById("bubble-text").textContent = texts[currentIndex].text;
+    }
+</script>
+
+</body>
+</html>
