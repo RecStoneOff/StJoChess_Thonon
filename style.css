@@ -7,8 +7,7 @@ body {
 }
 
 html {
-
-background-color: black;
+    background-color: black;
 }
 
 /* Bannière noire */
@@ -49,6 +48,10 @@ font-size: 15px;
     font-size: 28px; /* Augmente la taille du texte */
     color: white; /* Reste blanc (non modifié) */
     text-decoration: underline; /* Souligné au survol */
+}
+
+.ActualPage {
+    font-size: 30px;
 }
 
 /* Fin bannière*/
@@ -106,7 +109,7 @@ position: relative;
 }
 }
 
-}
+
 
 
 
