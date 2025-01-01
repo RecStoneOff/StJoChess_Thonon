@@ -12,9 +12,9 @@ html {
 
 /* Bannière noire */
 
-.black-banner {
+.PageSelection {
     width: 100%; /* Prend toute la largeur */
-    height: 60px; /* Hauteur de la bannière */
+    height: 100px; /* Hauteur de la bannière */
     background-color: black; /* Fond noir */
     display: flex; /* Utilisation du flexbox pour centrer les éléments */
     justify-content: center; /* Centre les éléments horizontalement */
@@ -22,14 +22,14 @@ html {
 }
 
 /* Style pour les liens dans la bannière */
-.black-banner-content {
+/*.PageSelection-content {
     display: flex; /* Aligne les liens horizontalement */
-    gap: 20px; /* Ajoute un espace de 20px entre chaque lien */
-    width: 60%; /* Ajuste la largeur du conteneur pour répartir les liens */
-}
+    /*gap: 20px; /* Ajoute un espace de 20px entre chaque lien */
+    /*width: 60%; /* Ajuste la largeur du conteneur pour répartir les liens */
+/*}
 
 /* Style des liens */
-.black-banner a {
+.PageSelection a {
     color: white; /* Texte blanc */
     text-decoration: none; /* Supprime le soulignement par défaut */
     font-size: 22px; /* Taille du texte de base */
