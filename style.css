@@ -22,11 +22,12 @@ html {
 }
 
 /* Style pour les liens dans la bannière */
-/*.PageSelection-content {
+
+.PageSelection-content {
     display: flex; /* Aligne les liens horizontalement */
-    /*gap: 20px; /* Ajoute un espace de 20px entre chaque lien */
-    /*width: 60%; /* Ajuste la largeur du conteneur pour répartir les liens */
-/*}
+    gap: 20px; /* Ajoute un espace de 20px entre chaque lien */
+    width: 60%; /* Ajuste la largeur du conteneur pour répartir les liens */
+}
 
 /* Style des liens */
 .PageSelection a {
@@ -38,20 +39,18 @@ html {
     margin-left: 20px;
 }
 
-.black-banner p {
-
-font-size: 15px;
-
-}
 /* Effet au survol */
-.black-banner a:hover {
+.PageSelection .PossiblePage:hover {
     font-size: 28px; /* Augmente la taille du texte */
     color: white; /* Reste blanc (non modifié) */
     text-decoration: underline; /* Souligné au survol */
 }
 
-.ActualPage {
-    font-size: 30px;
+.PageSelection .ActualPage {
+    font-size: 40px;
+    color: rgb(200, 200, 200);
+    margin-bottom: 1%;
+    text-decoration: underline;
 }
 
 /* Fin bannière*/

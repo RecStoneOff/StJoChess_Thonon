@@ -3,10 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StJo Chess Club - Home</title>
+    <title>StJo-Chess Thonon ・ Home</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<!--Effet de neige (seulement pour Noël)-->
+
+<script src="snow.js"></script>
 
 <!-- Header -->
 
@@ -15,13 +19,13 @@
             <img style="width: 100%; height: auto; max-width: 100%; display: block; " src="https://github.com/RecStoneOff/StJoChess_Thonon/blob/master/Images/Other/StJoChessBanner.png?raw=true" alt="Bannière StJo Chess" class="banner-image">
         </div>
 
-    <!-- Menu de sélection -->
+    <!-- Menu de sélection de la page -->
 
 
     <div class="PageSelection">
-        <a href="forum.html">Forum</a>
-        <a class="ActualPage" href="index.html">Home</a>
-        <a href="inscription.html">Inscription</a>
+        <a class="PossiblePage" href="forum.html">Forum</a>
+        <a class="ActualPage">Home</a>
+        <a class="PossiblePage" href="inscription.html">Inscription</a>
     </div>
 
     </header>
@@ -82,7 +86,6 @@
     </footer>
 
 
-            <!--
     <div class="comments">
     <h3>Vos commentaires :</h3>
     <div class="overlay">
@@ -104,8 +107,8 @@
         <p><strong>Le Block :</strong> Ce site est hideux !</p>
     </div>
 </div>
--->
-                <!--
+
+           
 
             <div class="comments">
                 <h3>Vos commentaires :</h3>
@@ -143,7 +146,6 @@
         <p>Website made by GNS</p>
     </footer>
 
--->
 
 <script>
     let currentIndex = 0;
@@ -159,6 +161,5 @@
         document.getElementById("bubble-text").textContent = texts[currentIndex].text;
     }
 </script>
-            <script src="snowstorm-min.js"></script>
 </body>
 </html>
